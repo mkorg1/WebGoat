@@ -60,11 +60,6 @@ jobs:
                         webgoat_version=${{ env.WEBGOAT_MAVEN_VERSION }} 
                         name: Build
 
-on:
-  push:
-    branches:
-      - main
-
 
 jobs:
   build:
